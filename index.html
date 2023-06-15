@@ -43,7 +43,7 @@
     <script>
         document.querySelector('body').addEventListener('mousemove',eyball);
         
-        function eyball(){
+        function eyeball(){
             let eye = document.querySelectorAll('.eye i')
             eye.forEach(function(eye){
                 let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
